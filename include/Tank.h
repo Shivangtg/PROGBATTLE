@@ -19,4 +19,7 @@ public:
 
     Tank(int id, int startHp, int startAp, Vec2D startPos, Weapon startingWeapon, std::unique_ptr<Bot> botLogic);
     void takeDamage(int amount);
+    void fire();
+    void move();
+    void usePowerUp();
 };

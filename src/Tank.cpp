@@ -12,6 +12,10 @@ Tank::Tank(int id, int startHp, int startAp, Vec2D startPos, Weapon startingWeap
     this->bot->setOwnerId(id);
 }
 
+void Tank::fire(){
+    
+}
+
 void Tank::takeDamage(int amount) {
     hp -= amount;
     if (hp <= 0) {

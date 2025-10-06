@@ -3,9 +3,11 @@
 #include <variant>
 #include <memory>
 #include "Vec2D.h"
+#include "Weapon.h"
+
 
 struct ShootParams {
-    std::string bulletType;
+    Weapon weapon;
     Vec2D direction;
 };
 
